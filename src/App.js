@@ -9,9 +9,9 @@ import TextSm from "./components/styled/typography/body/text.sm";
 import TextXs from "./components/styled/typography/body/text.xs";
 
 import "./styles/common.css";
-import "./styles/text.css";
-import "./styles/heading.css";
-import "./styles/button.css";
+import "./styles/text/text.css";
+import "./styles/heading/heading.css";
+import "./styles/button/button.css";
 import BtnMdGreen from "./components/styled/button/button.md";
 
 function App() {
