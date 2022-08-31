@@ -12,7 +12,7 @@ import "./styles/common.css";
 import "./styles/text/text.css";
 import "./styles/heading/heading.css";
 import "./styles/button/button.css";
-import BtnMdGreen from "./components/styled/button/button.md";
+import BtnMdPrim from "./components/styled/button/button.md";
 
 function App() {
 	return (
@@ -44,9 +44,9 @@ function App() {
 
 			<TextXs>Text Extra Small</TextXs>
 
-            <BtnMdGreen>
+            <BtnMdPrim>
                 Button Medium Green
-            </BtnMdGreen>
+            </BtnMdPrim>
 		</div>
 	);
 }

@@ -1,13 +1,9 @@
 import React from "react";
-import { Button } from "@mui/material";
+import Button from "./button";
 
-function BtnMdGreen({ children }) {
+function BtnMdPrim({ children }) {
 	return (
 		<Button
-			sx={{
-				textTransform: "initial",
-				fontFamily: "inherit",
-			}}
 			className="medium rounded-lg"
 		>
 			{children}
@@ -15,4 +11,4 @@ function BtnMdGreen({ children }) {
 	);
 }
 
-export default BtnMdGreen;
+export default BtnMdPrim;

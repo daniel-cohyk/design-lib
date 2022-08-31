@@ -1,12 +1,26 @@
+button {
+    transition: background-color 2s;
+    &:hover {
+        cursor: default;
+    }
+}
+
 button.medium {
     font-size: 1rem;
     padding: 10px 16px;
     background-color: var(--col-brand-600);
     color: white;
-    transition: background-color 0.25s;
 
     &:hover {
         cursor: pointer;
         background-color: var(--col-brand-500);
     }
+}
+
+button.primary {
+    background-color: var(--col-brand-600);
+}
+
+button.loading {
+
 }
