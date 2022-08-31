@@ -38,13 +38,13 @@ function App() {
 
 			<TextLg>Text Large</TextLg>
 
-			<Text>Text Base</Text>
+			<Text bold>Text Base</Text>
 
 			<TextSm>Text Small</TextSm>
 
 			<TextXs>Text Extra Small</TextXs>
 
-            <BtnMdPrim>
+            <BtnMdPrim loading>
                 Button Medium Green
             </BtnMdPrim>
 		</div>

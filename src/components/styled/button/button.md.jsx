@@ -1,10 +1,10 @@
 import React from "react";
 import Button from "./button";
 
-function BtnMdPrim({ children }) {
+function BtnMdPrim({ loading, children }) {
 	return (
 		<Button
-			className="medium rounded-lg"
+			className={`primary medium rounded-lg ${loading ? "primary--loading" : ""}`}
 		>
 			{children}
 		</Button>
