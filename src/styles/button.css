@@ -1,0 +1,11 @@
+button.medium {
+  font-size: 1rem;
+  padding: 10px 16px;
+  background-color: var(--col-brand-600);
+  color: white;
+  transition: background-color 0.25s;
+}
+button.medium:hover {
+  cursor: pointer;
+  background-color: var(--col-brand-500);
+}/*# sourceMappingURL=button.css.map */
